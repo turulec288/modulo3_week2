@@ -1,6 +1,9 @@
 import Contacts from "../contacts.json";
 import { useState } from "react";
 
+
+
+
 export default function Copy(){
     let [contacts, setContacts]=(useState(Contacts.slice(0,6)))
     let [hiddenContacts, setHiddenContacts]=(useState(Contacts.slice(6)))
@@ -34,7 +37,7 @@ export default function Copy(){
         
     }
 
-
+    /// Read C(R)UD
     return(
         
         <div>

@@ -38,7 +38,13 @@
 }
 img {
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 2px;
   padding: 5px;
   width: 150px;
+}
+.artist-card {
+  border: 2px black solid;
+  color: #0c02025e;
+  padding: auto;
+  padding-left: 50px;
 }
