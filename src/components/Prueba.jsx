@@ -1,6 +1,9 @@
 import ContactsJSON from "../contacts.json";
 import { useState, useEffect} from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
+import { useContext } from "react";                     
+import { AuthContext } from "../context/auth.context"; 
 
 export default function Prueba (){
     const [contacts, setContacts]=useState(ContactsJSON.slice(0,10))
